@@ -1,4 +1,4 @@
-package at.itkolleg.credentials-app;
+package at.itkolleg.credentials;
 
 import static org.junit.Assert.assertTrue;
 
