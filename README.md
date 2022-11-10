@@ -12,7 +12,11 @@ Erweitern Sie die bestehende Applikation mit der Zusatzfunktionalität zum Expor
 
 ## Nicht-Funktionale Anforderungen
 ### Decorator-Pattern
-Die Erweiterung muss unter Verwendung des Decorator-Patterns erfolgen. Die bestehende Applikation darf nicht verändert werden. Die Anwendung des Hashing-Decorators muss in der Main-Methode demonstriert werden.
+Die Erweiterung muss unter Verwendung des Decorator-Patterns erfolgen.
+
+https://de.wikipedia.org/wiki/Decorator
+
+Die bestehende Applikation darf nicht verändert werden. Die Anwendung des Hashing-Decorators muss in der Main-Methode demonstriert werden.
 
 ### Hashing-Algorithmus / Hashing Bibliothek
 Als Hashing-Bibliothek muss folgende Bibliothek zum Einsatz kommen:
@@ -38,12 +42,18 @@ String sha256hex = Hashing.sha256()
 Alle neu erstellen Klassen und Methoden müssen mit JavaDoc-Kommentaren und sinnvollen Kommentaren an wichtigen Codestellen dokumentiert werden.
 
 ### Git
-Der gesamte Entwicklungsprozess muss unter Verwendung von Git und GitHub begleitet werden.
+Der gesamte Entwicklungsprozess muss unter Verwendung von Git und GitHub begleitet werden. 
 
-Als Branching-Strategie ist GitHub Flow zu verwenden.
+Jeder Kandidat / jede Kandidatin forked in ein eigenes Repo
 
-Jeder Kandidat wechselt in den Dev-Branch und checkt einen eigenen Feature-Branch (Name des Branches entspricht dem Nachnamen des Kandidaten) aus.
+https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository
 
-Es sind laufend Commits und Pushes durchzuführen.
+und klont das Projekt für die lokale Bearbeitung.
 
-Am Ende des Tests wird ein finaler Push durchgeführt und zum Schluss ein Merge-Request abgesetzt. Der Merge-Request gilt als Testabgabe.
+https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository
+
+Jeder Kandidat wechselt in den Dev-Branch und checkt einen eigenen Feature-Branch (Name des Branches entspricht dem Nachnamen des Kandidaten) aus. 
+
+Es sind laufend Commits und Pushes durchzuführen. 
+
+Am Ende des Tests wird ein finaler Push durchgeführt und zum Schluss ein Merge-Request abgesetzt. Der Pull-Request gilt als Testabgabe.
