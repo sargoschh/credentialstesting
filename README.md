@@ -52,7 +52,7 @@ und klont das Projekt für die lokale Bearbeitung.
 
 https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository
 
-Jeder Kandidat wechselt in den Dev-Branch und checkt einen eigenen Feature-Branch (Name des Branches entspricht dem Nachnamen des Kandidaten) aus. 
+Jeder Kandidat checkt einen eigenen Feature-Branch (Name des Branches entspricht dem Nachnamen des Kandidaten) aus. 
 
 Es sind laufend Commits und Pushes durchzuführen. 
 
