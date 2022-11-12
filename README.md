@@ -11,7 +11,7 @@ Repository: https://github.com/clander/credentialstesting
 Erweitern Sie die bestehende Applikation mit der Zusatzfunktionalität zum Export der Benutzer-Login-Daten mit Passwort-Hash anstelle des Passworts in Klartext.
 
 ## 3) Nicht-Funktionale Anforderungen
-### 3.1)Decorator-Pattern
+### 3.1) Decorator-Pattern
 Die Erweiterung muss unter Verwendung des Decorator-Patterns erfolgen.
 
 https://de.wikipedia.org/wiki/Decorator
@@ -56,4 +56,6 @@ Es sind laufend Commits und Pushes durchzuführen.
 
 Am Ende des Tests wird ein finaler Push durchgeführt.
 
-Ein Pull-Request auf das Ausgangsrepo https://github.com/clander/credentialstesting gilt als Testabgae. Im Pull-Request muss der Name des Kandidaten / der Kandidatin angegeben werden.
+Ein Pull-Request auf das Ausgangsrepo https://github.com/clander/credentialstesting gilt als Testabgabe. Im Pull-Request muss der Name des Kandidaten / der Kandidatin angegeben werden.
+
+Hinweis: Ein kurzes Video zu Forking und Pull-Requests gibt es hier: https://www.youtube.com/watch?v=nT8KGYVurIU
