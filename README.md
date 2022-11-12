@@ -3,12 +3,12 @@
 Git, Maven, Mikroarchitektur
 
 ## 1) Gegeben
-Gegeben ist diese Applikation die Benutzer-Login-Daten (Credentials) exportieren kann. 
+Gegeben ist eine Applikation, die Benutzer-Login-Daten (Credentials) exportieren kann. 
 
-Repository URL: https://github.com/clander/credentialstesting
+Repository-URL der Applikation: https://github.com/clander/credentialstesting
 
 ## 2) Funktionale Anforderungen
-Erweitern Sie die bestehende Applikation mit der Zusatzfunktionalität zum Export der Benutzer-Login-Daten mit Passwort-Hash anstelle des Passworts in Klartext.
+Die bestehende Applikation ist mit der Zusatzfunktionalität zum Export der Benutzer-Login-Daten mit Passwort-Hash anstelle des Passworts in Klartext zu erweitern.
 
 ## 3) Nicht-Funktionale Anforderungen
 ### 3.1) Decorator-Pattern
@@ -16,11 +16,12 @@ Die Erweiterung muss unter Verwendung des Decorator-Patterns erfolgen.
 
 https://de.wikipedia.org/wiki/Decorator
 
-Die bestehende Applikation darf nicht verändert werden. Die Anwendung des Hashing-Decorators muss in der Main-Methode demonstriert werden.
+Die bestehende Applikation darf nicht verändert werden. 
+
+Die Anwendung des Hashing-Decorators muss in der Main-Methode demonstriert werden.
 
 ### 3.2) Hashing-Algorithmus / Hashing Bibliothek
 Als Hashing-Bibliothek muss folgende Bibliothek zum Einsatz kommen:
-
 
 ```xml
 <dependency>
