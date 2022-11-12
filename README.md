@@ -3,7 +3,9 @@
 Git, Maven, Mikroarchitektur
 
 ## 1) Gegeben
-Gegeben ist diese Applikation die Benutzer-Login-Daten (Credentials) exportieren kann. Repository URL: https://github.com/clander/credentialstesting
+Gegeben ist diese Applikation die Benutzer-Login-Daten (Credentials) exportieren kann. 
+
+Repository URL: https://github.com/clander/credentialstesting
 
 ## 2) Funktionale Anforderungen
 Erweitern Sie die bestehende Applikation mit der Zusatzfunktionalität zum Export der Benutzer-Login-Daten mit Passwort-Hash anstelle des Passworts in Klartext.
