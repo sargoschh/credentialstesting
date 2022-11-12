@@ -44,8 +44,10 @@ Alle neu erstellen Klassen und Methoden müssen mit JavaDoc-Kommentaren und sinn
 ### 3.4) Git
 Der gesamte Entwicklungsprozess muss unter Verwendung von Git und GitHub begleitet werden. 
 
-- Jeder Kandidat / jede Kandidatin forked in ein eigenes Repo: https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository
-- und klont das Projekt für die lokale Bearbeitung: https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository
+- Jeder Kandidat / jede Kandidatin forked in ein eigenes Repo: 
+https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository
+- und klont das Projekt für die lokale Bearbeitung: 
+https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository
 - Es sind laufend Commits und Pushes auf das lokale / eigene Remote-Repo durchzuführen. 
 - Am Ende des Tests wird ein finaler Push in das eigene Repo durchgeführt.
 - Dann folgt ein Pull-Request auf das Ausgangsrepo https://github.com/clander/credentialstesting. 
