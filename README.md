@@ -45,15 +45,16 @@ Alle neu erstellen Klassen und Methoden müssen mit JavaDoc-Kommentaren und sinn
 Der gesamte Entwicklungsprozess muss unter Verwendung von Git und GitHub begleitet werden. 
 
 #### Laufende Arbeit
-- Jeder Kandidat / jede Kandidatin forked in ein eigenes Repo: https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository
-- und klont das Projekt für die lokale Bearbeitung: https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository.
-- Es sind laufend Commits und Pushes auf das lokale / eigene Remote-Repo durchzuführen. Laufend bedeutet zumindest nach jeder Teilimplementierung für das Muster (z.B nach jeder Klassenimplementierung)
+- Jeder Kandidat / jede Kandidatin meldet sich auf GitHub an und forked das Ausgangsprojekt in ein eigenes Repo: https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository
+- Dann wird der Fork für die lokale Bearbeitung geklont: https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository.
+- Danach beginnt die Arbeit bezüglich Implementierung des Decorator-Patterns. 
+    - Zur Dokumentation des Entwidcklungsprozesses sind laufend Commits durchzuführen. Laufend bedeutet zumindest nach jeder Teilimplementierung für das Muster (z.B nach jeder Klassenimplementierung).
+    - Zur Sicherung des Fortschritts sind laufend Pushes auf das eigene Remote-GitHub-Repo durchzuführen.
 
 #### Abgabe
-- Am Ende des Tests wird ein finaler Push in das eigene Repo durchgeführt.
-- Dann folgt ein Pull-Request auf das Ausgangsrepo https://github.com/clander/credentialstesting. 
-    - Achte beim Erstellen des Pull-Requests darauf, dass du als Zielbranch im Target-Repository den Branch mit deinem Namen wählst. 
-    - Im Pull-Request muss der Name des Kandidaten / der Kandidatin angegeben werden.
+- Am Ende des Tests wird ein finaler Push in das eigene Remote-Repo durchgeführt.
+- Dann folgt ein Pull-Request auf das Ausgangsrepo https://github.com/clander/credentialstesting
+    - Beim Erstellen des Pull-Requests ist als Zielbranch im Target-Repository der Branch mit deinem Namen des Kandidaten zu wählen. 
     - Dieser Pull-Request gilt als Testabgabe. 
 
 Hinweis: Ein kurzes Video zu Forking und Pull-Requests gibt es hier: https://www.youtube.com/watch?v=nT8KGYVurIU
