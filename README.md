@@ -3,9 +3,7 @@
 Git, Maven, Mikroarchitektur
 
 ## 1) Gegeben
-Gegeben ist eine Applikation die Benutzer-Login-Daten (Credentials) exportieren kann. Die Applikation kann über GitHub bezogen werden.
-
-Repository: https://github.com/clander/credentialstesting
+Gegeben ist diese Applikation die Benutzer-Login-Daten (Credentials) exportieren kann. Repository URL: https://github.com/clander/credentialstesting
 
 ## 2) Funktionale Anforderungen
 Erweitern Sie die bestehende Applikation mit der Zusatzfunktionalität zum Export der Benutzer-Login-Daten mit Passwort-Hash anstelle des Passworts in Klartext.
@@ -48,6 +46,9 @@ Der gesamte Entwicklungsprozess muss unter Verwendung von Git und GitHub begleit
 - und klont das Projekt für die lokale Bearbeitung: https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository
 - Es sind laufend Commits und Pushes auf das lokale / eigene Remote-Repo durchzuführen. 
 - Am Ende des Tests wird ein finaler Push in das eigene Repo durchgeführt.
-- Dann folgt ein Pull-Request auf das Ausgangsrepo https://github.com/clander/credentialstesting (gilt als Testabgabe). Im Pull-Request muss der Name des Kandidaten / der Kandidatin angegeben werden.
+- Dann folgt ein Pull-Request auf das Ausgangsrepo https://github.com/clander/credentialstesting. 
+    - Achte beim Erstellen des Pull-Requests darauf, dass du als Zielbranch im Target-Repository den Branch mit deinem Namen wählst. 
+    - Im Pull-Request muss der Name des Kandidaten / der Kandidatin angegeben werden.
+    - Dieser Pull-Request gilt als Testabgabe. 
 
 Hinweis: Ein kurzes Video zu Forking und Pull-Requests gibt es hier: https://www.youtube.com/watch?v=nT8KGYVurIU
