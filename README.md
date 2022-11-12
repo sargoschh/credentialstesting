@@ -2,23 +2,23 @@
 
 Git, Maven, Mikroarchitektur
 
-## Gegeben
+## 1) Gegeben
 Gegeben ist eine Applikation die Benutzer-Login-Daten (Credentials) exportieren kann. Die Applikation kann über GitHub bezogen werden.
 
 Repository: https://github.com/clander/credentialstesting
 
-## Funktionale Anforderungen
+## 2) Funktionale Anforderungen
 Erweitern Sie die bestehende Applikation mit der Zusatzfunktionalität zum Export der Benutzer-Login-Daten mit Passwort-Hash anstelle des Passworts in Klartext.
 
-## Nicht-Funktionale Anforderungen
-### Decorator-Pattern
+## 3) Nicht-Funktionale Anforderungen
+### 3.1)Decorator-Pattern
 Die Erweiterung muss unter Verwendung des Decorator-Patterns erfolgen.
 
 https://de.wikipedia.org/wiki/Decorator
 
 Die bestehende Applikation darf nicht verändert werden. Die Anwendung des Hashing-Decorators muss in der Main-Methode demonstriert werden.
 
-### Hashing-Algorithmus / Hashing Bibliothek
+### 3.2) Hashing-Algorithmus / Hashing Bibliothek
 Als Hashing-Bibliothek muss folgende Bibliothek zum Einsatz kommen:
 
 
@@ -38,10 +38,10 @@ String sha256hex = Hashing.sha256()
 .toString();
 ```
 
-### Dokumentation
+### 3.3) Dokumentation
 Alle neu erstellen Klassen und Methoden müssen mit JavaDoc-Kommentaren und sinnvollen Kommentaren an wichtigen Codestellen dokumentiert werden.
 
-### Git
+### 3.4) Git
 Der gesamte Entwicklungsprozess muss unter Verwendung von Git und GitHub begleitet werden. 
 
 Jeder Kandidat / jede Kandidatin forked in ein eigenes Repo
@@ -52,8 +52,8 @@ und klont das Projekt für die lokale Bearbeitung.
 
 https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository
 
-Jeder Kandidat checkt einen eigenen Feature-Branch (Name des Branches entspricht dem Nachnamen des Kandidaten) aus. 
-
 Es sind laufend Commits und Pushes durchzuführen. 
 
-Am Ende des Tests wird ein finaler Push durchgeführt und zum Schluss ein Merge-Request abgesetzt. Der Pull-Request gilt als Testabgabe.
+Am Ende des Tests wird ein finaler Push durchgeführt.
+
+Ein Pull-Request auf das Ausgangsrepo https://github.com/clander/credentialstesting gilt als Testabgae. Im Pull-Request muss der Name des Kandidaten / der Kandidatin angegeben werden.
