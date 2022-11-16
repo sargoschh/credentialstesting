@@ -13,10 +13,11 @@ public class HashExporter extends Decorator{
 
     @Override
     public void export(List<Credentials> credentialsList) {
-        for(Credentials c : credentialsList) {
+        List<Credentials> newCredentialsList = credentialsList;
+        for(Credentials c : newCredentialsList) {
             c.setPwd(getHash(c));
         }
-        super.export(credentialsList);
+        super.export(newCredentialsList);
     }
 
     public String getHash(Credentials credentials) {
