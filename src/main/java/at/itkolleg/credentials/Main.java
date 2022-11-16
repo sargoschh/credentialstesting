@@ -13,6 +13,8 @@ public class Main {
         ExportCredentials exportCredentials =  new CsvExporter();
         exportCredentials.export(credentialsList);
 
+        ExportCredentials hashExporter = new HashExporter(exportCredentials);
+        hashExporter.export(credentialsList);
 
     }
 }

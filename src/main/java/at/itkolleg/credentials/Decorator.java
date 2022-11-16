@@ -4,10 +4,14 @@ import java.util.List;
 
 public abstract class Decorator implements ExportCredentials{
 
-    private CsvExporter csvExporter;
+    private ExportCredentials csvExporter;
 
-    public Decorator(CsvExporter csvExporter) {
+    public Decorator(ExportCredentials csvExporter) {
         this.csvExporter = csvExporter;
+    }
+
+    public ExportCredentials getCsvExporter() {
+        return csvExporter;
     }
 
     @Override
